@@ -1,7 +1,7 @@
 import { useContext } from "react"
 import { PathfindingContext } from "../context/PathfindingContext"
 
-export const userPathfinding = () => {
+export const usePathfinding = () => {
     const context = useContext(PathfindingContext);
 
     if (!context) {
